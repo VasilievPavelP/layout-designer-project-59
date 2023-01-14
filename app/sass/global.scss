@@ -1,0 +1,12 @@
+@import "./fonts";
+@import "./vars";
+
+.red {
+  color: $red;
+}
+
+@for $i from 1 through 6 {
+  h#{$i} {
+    margin: 0;
+  }
+}
